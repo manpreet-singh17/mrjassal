@@ -1,0 +1,466 @@
+#FrontEndSkills .panel .panel-body p,
+#FrontEndSkills .panel .panel-heading,
+#aboutMeHeader>h3,
+#backEndSkills .panel .panel-body p,
+#backEndSkills .panel .panel-heading,
+#bioInfo .panel .panel-body p,
+#bioInfo .panel .panel-body p span,
+#bioInfo .panel .panel-heading,
+#contactMeModal .modal-dialog .modal-content .modal-body #contactInfo,
+#resume .container .row #col1 #auckEdu h4,
+#resume .container .row #col1 #auckEdu h5,
+#resume .container .row #col1 #auckEdu p,
+#resume .container .row #col1 #btechEdu h4,
+#resume .container .row #col1 #btechEdu h5,
+#resume .container .row #col1 #btechEdu p,
+#resume .container .row #col1 #educationHead h3,
+#resume .container .row #col2 #auckExp h4,
+#resume .container .row #col2 #auckExp h5,
+#resume .container .row #col2 #auckExp p,
+#resume .container .row #col2 #experienceHead,
+#resume .container .row #col2 #indiaExp h4,
+#resume .container .row #col2 #indiaExp h5,
+#resume .container .row #col2 #indiaExp p,
+#services #servicesRow1 #serviceHeader,
+.panelHeadingFormat,
+.resumeHeader h2,
+.textFormat {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-align: justify;
+    overflow: auto
+}
+
+nav.navbar {
+    border-bottom: 5px solid #d83b01;
+    border-radius: 0;
+    padding: 1% 4%
+}
+
+nav.navbar div div button span {
+    background-color: red
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff
+}
+
+.navbar-default {
+    border: 0
+}
+
+#mainNavbar>ul>li a {
+    font-family: Verdana, Times, serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #000;
+    transition: color .7s
+}
+
+#mainNavbar>ul>li>a:hover {
+    color: #d83b01
+}
+
+#headerImage {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+#jumboSection {
+    margin-top: 6%
+}
+
+#jumboSection>div>div {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .3)
+}
+
+#overlayContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff
+}
+
+#follow-me-btn>.btn-default {
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid;
+    color: #fff;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: background-color .7s, border .5s
+}
+
+#follow-me-btn>a {
+    white-space: normal
+}
+
+#follow-me-btn .btn-default:hover {
+    background-color: #d83b01;
+    border: 1px solid;
+    border-color: #d83b01;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    opacity: .8
+}
+
+@media screen and (max-width:768px) {
+    #follow-me-btn>.btn-default {
+        width: 150px;
+        background-color: transparent;
+        border-radius: 0;
+        border: 1px solid;
+        padding: 12px 31px;
+        margin: 10px;
+        cursor: pointer;
+        color: #fff;
+        display: block
+    }
+}
+
+#FrontEndSkills .panel,
+#backEndSkills .panel,
+#bioInfo .panel,
+.panelFormat {
+    box-shadow: 0 0 2px #d83b01;
+    border-radius: 0;
+    border: 0 solid
+}
+
+#FrontEndSkills .panel .panel-heading,
+#backEndSkills .panel .panel-heading,
+#bioInfo .panel .panel-heading,
+.panelHeadingFormat {
+    border: 1px solid #d83b01;
+    background-color: #d83b01;
+    border-radius: 0;
+    color: #fff;
+    height: 50px;
+    text-indent: 5px
+}
+
+#FrontEndSkills .panel .panel-body,
+#backEndSkills .panel .panel-body,
+#bioInfo .panel .panel-body,
+.panelBodyFormat {
+    border: 1px solid #d83b01;
+    height: 250px;
+    padding: 24px;
+    overflow: auto
+}
+
+#aboutMeHeader>h3 {
+    text-align: center;
+    text-indent: 0;
+    border-bottom: 1px solid;
+    border-color: #d83b01;
+    padding: 2%;
+    margin-top: 0;
+    color: #d83b01
+}
+
+@media screen and (max-width:768px) {
+    #aboutMeHeader>h3 {
+        padding: 20px;
+    }
+}
+
+#parallax .row div {
+    padding: 0;
+    background-image: url(../img/banner-bg.jpg);
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#parallax .row #contactMebtn {
+    border: 0;
+    border-radius: 0;
+    background-color: #d83b01;
+    padding: 1.5% 4%;
+    position: relative;
+    left: 38%;
+    top: 40%
+}
+
+#contactMeModal .modal-dialog .modal-content {
+    border-radius: 0
+}
+
+#contactMeModal .modal-dialog .modal-content .modal-header {
+    background-color: #d83b01;
+    padding: 25px 20px
+}
+
+#contactMeModal .modal-dialog .modal-content .modal-header button {
+    color: #fff
+}
+
+#contactMeModal .modal-dialog .modal-content .modal-body .text-center .fa-address-book {
+    border: 7px double;
+    border-radius: 50%;
+    padding: 30px;
+    background-color: #d83b01;
+    color: #fff
+}
+
+#contactMeModal .modal-dialog .modal-content .modal-body #contactInfo {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center
+}
+
+#contactMeModal .modal-dialog .modal-content .modal-body #contactInfo a {
+    border-radius: 0;
+    border: 1px solid #d83b01;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 16px;
+    transition: background-color 1s, color 1.2s;
+    color: #d83b01
+}
+
+#contactMeModal .modal-dialog .modal-content .modal-body #contactInfo a:hover {
+    background-color: #d83b01;
+    color: #fff
+}
+
+#contactMeModal .modal-dialog .modal-footer {
+    background-color: #d83b01;
+    padding: 30px;
+    border: 0 solid
+}
+
+@media screen and (max-width:480px) {
+    #parallax .row div {
+        padding: 0;
+        height: 150px
+    }
+    #parallax .row div #contactMebtn {
+        padding: 14px 24px;
+        position: relative;
+        left: 15%;
+        top: 35%
+    }
+}
+
+footer>.container-fluid {
+    background-color: #d83b01
+}
+
+#footer-content {
+    padding: 2%
+}
+
+#footer-content>a {
+    text-decoration: none;
+    text-align: center
+}
+
+#footer-content>a>.fa {
+    padding: 14px;
+    border-radius: 50%
+}
+
+#footer-content>a>i {
+    margin-right: 2%;
+    transition: background-color .8s
+}
+
+#address {
+    color: #f8f8f8;
+    padding-top: 2%
+}
+
+#copyRightText {
+    color: #f8f8f8;
+    padding: 0
+}
+
+#footer-content>a>.fa-linkedin {
+    background-color: #007bb5;
+    color: #fff
+}
+
+#footer-content>a>.fa-github {
+    background-color: #510b74;
+    color: #fff
+}
+
+#footer-content>a>.fa-twitter {
+    background-color: #77bcf1;
+    color: #fff
+}
+
+#footer-content>a>.fa-rss {
+    background-color: #ff8433;
+    color: #fff
+}
+
+@media screen and (max-width:480px) {
+    #footer-content>a>.fa {
+        padding: 12px
+    }
+    #footer-content>a>i {
+        margin-right: 4%;
+        margin-top: 7px
+    }
+}
+
+#resume .container .row {
+    margin: 0
+}
+
+#resume .container .row #col1 {
+    padding: 2px
+}
+
+#resume .container .row #col1 #educationHead h3 {
+    text-align: center;
+    color: #d83b01;
+    padding: 0;
+    overflow: visible
+}
+
+#resume .container .row #col1 #btechEdu h4,
+#resume .container .row #col1 #btechEdu h5 {
+    text-align: center
+}
+
+#resume .container .row #col1 #btechEdu p {
+    padding: 6px;
+    text-align: center
+}
+
+#resume .container .row #col1 #auckEdu h4,
+#resume .container .row #col1 #auckEdu h5 {
+    text-align: center
+}
+
+#resume .container .row #col1 #auckEdu p {
+    padding: 6px;
+    text-align: center
+}
+
+#resume .container .row #col2 #experienceHead {
+    text-align: center;
+    color: #d83b01;
+    padding: 0;
+    overflow: visible
+}
+
+#resume .container .row #col2 #indiaExp h4,
+#resume .container .row #col2 #indiaExp h5 {
+    text-align: center
+}
+
+#resume .container .row #col2 #indiaExp p {
+    padding: 6px;
+    text-align: center
+}
+
+#resume .container .row #col2 #auckExp h4,
+#resume .container .row #col2 #auckExp h5 {
+    text-align: center
+}
+
+#resume .container .row #col2 #auckExp p {
+    text-align: center
+}
+
+.resumeHeader h2 {
+    border-bottom: 1px solid #d83b01;
+    border-top: 1px solid #d83b01;
+    padding: 20px;
+    margin: 0;
+    color: #d83b01;
+    text-align: center
+}
+
+@media screen and (max-width:480px) {
+    #resumeHeading {
+        background-color: #d83b01;
+        color: #f8f8f8
+    }
+}
+
+#services #servicesRow1 #serviceHeader {
+    text-align: center;
+    color: #d83b01;
+    border-top: 1px solid #d83b01;
+    margin-bottom: 3%
+}
+
+#services #servicesRow2 #frontEndDevServices {
+    border-right: 1px solid #d83b01;
+    text-align: center;
+    height: 300px;
+    margin-bottom: 15px
+}
+
+#services #servicesRow2 #serverDevServices {
+    border-right: 1px solid #d83b01;
+    text-align: center;
+    height: 300px;
+    margin-bottom: 15px
+}
+
+#services #servicesRow2 #desktopDevServices {
+    border-right: 1px solid #d83b01;
+    text-align: center;
+    height: 300px;
+    margin-bottom: 15px
+}
+
+#services #servicesRow2 #dataBaseDevServices {
+    text-align: center;
+    height: 300px;
+    margin-bottom: 15px
+}
+
+@media screen and (max-width:768px) {
+    #services #servicesRow2 #frontEndDevServices {
+        border-right: 0;
+        border-bottom: 1px solid #d83b01
+    }
+    #services #servicesRow2 #serverDevServices {
+        border-right: 0;
+        border-bottom: 1px solid #d83b01
+    }
+    #services #servicesRow2 #desktopDevServices {
+        border-right: 0;
+        border-bottom: 1px solid #d83b01
+    }
+    #services #servicesRow2 #dataBaseDevServices {
+        border-right: 0;
+        border-bottom: 1px solid #d83b01
+    }
+}
+
+@media screen and (max-width:480px) {
+    #workFlowHeading {
+        background-color: #d83b01;
+        color: #f8f8f8
+    }
+}
